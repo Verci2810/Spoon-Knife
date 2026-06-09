@@ -1,20 +1,54 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="pt-BR">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Projeto Cloud</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 {
+            color: #2f3e46;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #354f52;
+            font-size: 1.1rem;
+        }
+        .status {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 15px;
+            background-color: #52b788;
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
-
 <body>
 
-<img src="forkit.gif" id="octocat" alt="" />
-
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
+    <div class="card">
+        <h1>Sucesso! 🚀</h1>
+        <p>Este código está salvo localmente no VS Code e sincronizado na nuvem do GitHub.</p>
+        <span class="status">Sincronizado via Git</span>
+    </div>
 
 </body>
 </html>
